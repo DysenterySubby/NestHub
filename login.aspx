@@ -29,7 +29,7 @@
             </div>
         </div>
             <asp:Button ID="Button1" runat="server" Text="Continue with email" CssClass="submit"/>
-            <p>Don't have an account? <a href="#">Register!!!!</a></p>
+            <p>Don't have an account? <a href="#">Register</a></p>
         </form>
     </header>
 </body>
