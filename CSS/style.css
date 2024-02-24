@@ -95,3 +95,21 @@ h3{
     color: #181818;
     font-size: 14px;
 }
+/* GRIFFIN CSS: */
+.auto-style1 {
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.auto-style2 {
+    color: #0099FF;
+    font-size: small;
+}
+
+.auto-style3 {
+    font-size: small;
+}
+
+.grey {
+    color: #4F4F4F;
+}
