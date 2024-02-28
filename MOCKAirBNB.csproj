@@ -190,9 +190,9 @@
     <Content Include="CSS\style.css" />
     <Content Include="Global.asax" />
     <Content Include="home.aspx" />
+    <Content Include="hometemp.aspx" />
     <Content Include="Images\background-img.jpg" />
-    <Content Include="login.aspx" />
-    <Content Include="registration.aspx" />
+    <Content Include="JS\register.js" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -208,22 +208,15 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="hometemp.aspx.cs">
+      <DependentUpon>hometemp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="hometemp.aspx.designer.cs">
+      <DependentUpon>hometemp.aspx</DependentUpon>
     </Compile>
     <Compile Include="NestHubAzureBlobService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="registration.aspx.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="registration.aspx.designer.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
