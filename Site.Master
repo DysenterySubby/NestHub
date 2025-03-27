@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NestHub_BackEnd.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title><%: Page.Title %> | NestHub Database</title>
+
+    <style type="text/css">
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #232323;
+            margin: 0px;
+        }
+
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #232323;
+        }
+
+        .navbar ul {
+            position: relative;
+            list-style-type: none;
+            background-color: #ecc218;
+            padding: 5px;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 9999;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #232323;
+            font-weight: bold;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        .navbar a:hover{
+            color: #ffffff;
+        }
+
+        .navbar li{
+            float: left;
+            margin: 5px
+        }
+
+        .navbar img{
+            margin-left: 60px;
+            display: block;
+        }
+
+        .container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+
+        input[type="text"],
+        input[type="tel"] {
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .gridview-container {
+            width: 100%;
+            margin: auto;
+            overflow-x: auto;
+        }
+
+        .gridview {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .gridview th,
+        .gridview td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .gridview th {
+            background-color: #232323;
+            color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            .gridview-container {
+                overflow-x: auto;
+            }
+
+            .gridview {
+                width: 100%;
+            }
+
+            .navbar img {
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .navbar ul {
+                justify-content: flex-start;
+            }
+        }
+
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <asp:HiddenField ID="hfCurrentPage" runat="server" />
+        <div class = "navbar">
+        <nav>
+            <ul>
+                <li>
+                    <asp:ImageButton ID="imgHome" runat="server" ImageUrl="~/Images/Logo_NestHub.png" Width="120" Height="50" OnClick="ChangedPage" />
+                <li><a href="User_Info.aspx">USER INFO</a></li>
+                <li><a href="Support_Tickets.aspx">SUPPORT TICKETS</a></li>
+                <li><a id="btnAdmin" runat="server" href="Staff_Info.aspx">STAFF / ADMINS</a></li>
+                <li style="margin-left:55%"><asp:LinkButton ID="LinkButton1" runat="server" OnClick="Signout_Event">SIGNOUT</asp:LinkButton></li>
+            </ul>
+        </nav>
+        </div>
+        <asp:ContentPlaceHolder ID = "content_body" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

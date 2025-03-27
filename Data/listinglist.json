@@ -1,0 +1,42 @@
+[
+  {
+    "PropID": "052143",
+    "PropName": "White Vacay",
+    "PropAddress": "245, biñan",
+    "PricePerNight": 8500.00,
+    "PropReview": 0.00,
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/052143/listing-image-1"
+  },
+  {
+    "PropID": "175500",
+    "PropName": "Jubilation House",
+    "PropAddress": "blk 15 lot 3, Binan",
+    "PricePerNight": 7500.00,
+    "PropReview": 0.00,
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/175500/listing-image-1"
+  },
+  {
+    "PropID": "196524",
+    "PropName": "Caondo",
+    "PropAddress": "golden mewdo, Binan",
+    "PricePerNight": 5000.00,
+    "PropReview": 0.00,
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/196524/listing-image-1"
+  },
+  {
+    "PropID": "676929",
+    "PropName": "Green house",
+    "PropAddress": "388, Sta.rosa",
+    "PricePerNight": 8000.00,
+    "PropReview": 0.00,
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/676929/listing-image-1"
+  },
+  {
+    "PropID": "999007",
+    "PropName": "Edrian Property",
+    "PropAddress": "Stage V, Agusan, Binan",
+    "PricePerNight": 299.00,
+    "PropReview": 0.00,
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/999007/listing-image-1"
+  }
+]

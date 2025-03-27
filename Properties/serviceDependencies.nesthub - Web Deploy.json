@@ -6,6 +6,14 @@
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/nesthubdbserver/databases/NestHub_db",
       "type": "mssql.azure",
       "connectionId": "NestHubConnectionString"
+    },
+    "storage1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/nesthub/providers/Microsoft.ServiceLinker/linkers/NestHubStorageAccountConnectionString_E043323EA5, /subscriptions/c0d8b07f-7e0e-48c4-a4df-3cfb4f21fa0f/resourcegroups/webappNestHub/providers/Microsoft.Web/sites/nesthub/providers/Microsoft.ServiceLinker/linkers/NestHubStorageAccountConnectionString_B6608090A1",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/nesthubstorage",
+      "type": "storage.azure",
+      "connectionId": "NestHubStorageAccountConnectionString",
+      "dynamicId": null
     }
   }
 }

@@ -19,7 +19,7 @@ namespace MOCKAirBNB
 
         protected void Session_Start(object sender, EventArgs e)
         {
-            Session["KeepLogin"] = false;
+
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

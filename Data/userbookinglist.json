@@ -1,0 +1,16 @@
+[
+  {
+    "BookingID": "230349",
+    "StartDate": "March 14, 2024",
+    "EndDate": "March 16, 2024",
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/017030/listing-image-1",
+    "IsRated": "False"
+  },
+  {
+    "BookingID": "503842",
+    "StartDate": "March 17, 2024",
+    "EndDate": "March 28, 2024",
+    "PropImgUrl": "https://nesthubstorage.blob.core.windows.net/homelistings/017030/listing-image-1",
+    "IsRated": "False"
+  }
+]
