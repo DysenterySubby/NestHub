@@ -1,0 +1,2 @@
+# NestHub
+A property renting website heavily inspired by AirBNB developed using C# ASP.NET Web Forms deployed using Azure App Service. The website utilizes Azure Blob Storage and Azure SQL Database. The website was developed as a final project requirement for IT114L (WEB SYSTEMS AND TECHNOLOGIES (LABORATORY). Due to relience on Azure Cloud Computing Services, the website became non-functional after the expiration of the Student Trial Azure Subscription.
